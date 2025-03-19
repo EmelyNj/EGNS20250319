@@ -28,4 +28,6 @@ public partial class User
     [Display(Name = "Rol del Usuario")]
 
     public string Role { get; set; } = null!;
+
+    public string? Rol { get; set; }
 }

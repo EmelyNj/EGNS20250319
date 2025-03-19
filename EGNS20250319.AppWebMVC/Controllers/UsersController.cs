@@ -97,7 +97,7 @@ namespace EGNS20250319.AppWebMVC.Controllers
         //            new Claim(ClaimTypes.Name, usuarioAuth.Email),
         //            new Claim("UserId", usuarioAuth.UserId.ToString()),
         //             new Claim("Username", usuarioAuth.Username),
-        //            new Claim(ClaimTypes.Role, usuarioAuth.Role)
+        //            new Claim(ClaimTypes.Role, usuarioAuth.Rol)
         //            };
         //        var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
         //        await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(identity));
