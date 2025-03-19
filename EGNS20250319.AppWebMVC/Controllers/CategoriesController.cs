@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using EGNS20250319.AppWebMVC.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 
 namespace EGNS20250319.AppWebMVC.Controllers
 {
+    //[Authorize]
     public class CategoriesController : Controller
     {
         private readonly Test20250319DbContext _context;
